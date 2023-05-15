@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap");
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    padding: 8px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 8px;
+}
+
+.header > * {
+    margin: 6px;
+}
+
+.mainLogo {
+    cursor: pointer;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.navItems > p {
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 200px;
+}
+
+.articleView {
+    cursor: pointer;
+    display: flex;
+    max-width: 80%;
+    gap: 16px;
+    height: 200px;
+}
+
+.articleViewLeft {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleViewLeft > * {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.articleViewBody {
+    white-space: break-spaces;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.articleViewFooter {
+    justify-self: flex-end;
+}
+
+.articleViewFooter {
+    color: rgb(44, 44, 44);
+}
+
+.editArticleForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 70%;
+}
+
+.editArticleForm label {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editArticleForm div button {
+    margin-top: 10px;
+    display: block;
+}
+
+.button-container {
+    display: flex; /* make the container a flex container */
+    justify-content: space-between; /* distribute the buttons evenly */
+    align-items: center; /* center the buttons vertically */
+}
+
+.delete-button {
+    background-color: #dc3545; /* set the background color */
+    color: white; /* set the font color */
+    border: none; /* remove the border */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 5px; /* round the corners */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+}
+
+.submit-button {
+    background-color: #007bff; /* set the background color */
+    color: white; /* set the font color */
+    border: none; /* remove the border */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 5px; /* round the corners */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+}
+
+.sign-in-button {
+    background-color: #28a745; /* set the background color */
+    color: white; /* set the font color */
+    border: none; /* remove the border */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 5px; /* round the corners */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+}
+
+.sign-up-button {
+    background-color: #ffc107; /* set the background color */
+    color: white; /* set the font color */
+    border: none; /* remove the border */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 5px; /* round the corners */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+}
